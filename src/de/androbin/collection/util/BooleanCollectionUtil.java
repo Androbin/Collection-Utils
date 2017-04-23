@@ -40,6 +40,6 @@ public final class BooleanCollectionUtil
 	
 	public static boolean randomElement( final boolean[] array, final Random random )
 	{
-		return array == null || array.length == 0 ? false : array[ ( random == null ? ThreadLocalRandom.current() : random ).nextInt( array.length ) ];
+		return array != null && array.length > 0 && array[ ( random == null ? ThreadLocalRandom.current() : random ).nextInt( array.length ) ];
 	}
 }
