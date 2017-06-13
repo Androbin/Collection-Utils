@@ -1,6 +1,6 @@
 package de.androbin.collection.util;
 
-import de.androbin.function.*;
+import de.androbin.func.*;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.stream.*;
