@@ -1,6 +1,6 @@
 language: java
 before_install:
-  - bash install-deps.sh
+  - mvn clean package -DskipTests
 jdk:
   - oraclejdk8
 notifications:
